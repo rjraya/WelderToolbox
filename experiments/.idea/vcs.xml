@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$USER_HOME$/.sbt/0.13/staging/173877ed00ebc5d239e0/welder" vcs="Git" />
+    <mapping directory="$USER_HOME$/.sbt/0.13/staging/7badc09eb6af03e9e7a2/inox" vcs="Git" />
+    <mapping directory="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder" vcs="Git" />
+    <mapping directory="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>

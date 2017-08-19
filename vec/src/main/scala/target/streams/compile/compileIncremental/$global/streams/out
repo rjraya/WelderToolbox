@@ -1,0 +1,287 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala, /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4490377, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/usuario/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:1: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:2: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox.trees.{forall => _, _}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:3: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox.trees.dsl._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:5: not found: object welder[0m
+[0m[[31merror[0m] [0mimport welder._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:114: not found: value theoryOf[0m
+[0m[[31merror[0m] [0m  val theory = theoryOf(program)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:132: not found: type Theorem[0m
+[0m[[31merror[0m] [0m  val theorem: Theorem = prove([0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:12: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val affinePoint = FreshIdentifier("affinePoint")[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:13: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val infinitePoint = FreshIdentifier("infinitePoint")[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:14: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val finitePoint = FreshIdentifier("finitePoint")[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:15: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val first = FreshIdentifier("first")[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:16: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val second = FreshIdentifier("second")[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:23: not found: value mkSort[0m
+[0m[[31merror[0m] [0m  val affinePointADT = mkSort(affinePoint)("F")(Seq(infinitePoint,finitePoint))[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:24: not found: value mkConstructor[0m
+[0m[[31merror[0m] [0m  val infiniteADT = mkConstructor(infinitePoint)("F")(Some(affinePoint))(_ => Seq())[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:25: not found: value mkConstructor[0m
+[0m[[31merror[0m] [0m  val finiteADT = mkConstructor(finitePoint)("F")(Some(affinePoint)){ case Seq(fT) =>[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:29: not found: value T[0m
+[0m[[31merror[0m] [0m  val F = T(element)()[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:30: not found: value T[0m
+[0m[[31merror[0m] [0m  val affine = T(affinePoint)(F)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:31: not found: value T[0m
+[0m[[31merror[0m] [0m  val infinite = T(infinitePoint)(F)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:32: not found: value T[0m
+[0m[[31merror[0m] [0m  val finite = T(finitePoint)(F)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:36: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val onCurveID = FreshIdentifier("onCurve")[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:37: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val addCurveID = FreshIdentifier("add")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:38: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val oppCurveID = FreshIdentifier("opp")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:40: not found: value mkFunDef[0m
+[0m[[31merror[0m] [0m  val onCurveFunction = mkFunDef(onCurveID)() { case Seq() => [0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:58: not found: value mkFunDef[0m
+[0m[[31merror[0m] [0m  val addCurveFunction = mkFunDef(addCurveID)() { case Seq() => [0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:90: not found: value mkFunDef[0m
+[0m[[31merror[0m] [0m  val oppCurveFunction = mkFunDef(oppCurveID)() { case Seq() => [0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:107: not found: value NoSymbols[0m
+[0m[[31merror[0m] [0m  val symbols = NoSymbols[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:113: not found: value InoxProgram[0m
+[0m[[31merror[0m] [0m  val program = InoxProgram(Context.empty, symbols)[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:118: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def addCurve(p1: Expr, p2:Expr, a: Expr, b: Expr): Expr = E(addCurveID)(p1, p2, a, b)[0m
+[0m[[31merror[0m] [0m                                                     ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:118: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def addCurve(p1: Expr, p2:Expr, a: Expr, b: Expr): Expr = E(addCurveID)(p1, p2, a, b)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:118: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def addCurve(p1: Expr, p2:Expr, a: Expr, b: Expr): Expr = E(addCurveID)(p1, p2, a, b)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:118: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def addCurve(p1: Expr, p2:Expr, a: Expr, b: Expr): Expr = E(addCurveID)(p1, p2, a, b)[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:118: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def addCurve(p1: Expr, p2:Expr, a: Expr, b: Expr): Expr = E(addCurveID)(p1, p2, a, b)[0m
+[0m[[31merror[0m] [0m                                              ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:118: not found: value E[0m
+[0m[[31merror[0m] [0m  def addCurve(p1: Expr, p2:Expr, a: Expr, b: Expr): Expr = E(addCurveID)(p1, p2, a, b)[0m
+[0m[[31merror[0m] [0m                                                            ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:119: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def onCurve(p: Expr, a: Expr, b: Expr): Expr = E(onCurveID)(p,a,b)[0m
+[0m[[31merror[0m] [0m                                          ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:119: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def onCurve(p: Expr, a: Expr, b: Expr): Expr = E(onCurveID)(p,a,b)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:119: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def onCurve(p: Expr, a: Expr, b: Expr): Expr = E(onCurveID)(p,a,b)[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:119: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def onCurve(p: Expr, a: Expr, b: Expr): Expr = E(onCurveID)(p,a,b)[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:119: not found: value E[0m
+[0m[[31merror[0m] [0m  def onCurve(p: Expr, a: Expr, b: Expr): Expr = E(onCurveID)(p,a,b)[0m
+[0m[[31merror[0m] [0m                                                 ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/curve.scala:132: not found: value prove[0m
+[0m[[31merror[0m] [0m  val theorem: Theorem = prove([0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:1: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:2: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox.trees.{forall => _, _}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:3: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox.trees.dsl._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:18: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val element = FreshIdentifier("element")[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:19: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val zero = FreshIdentifier("zero")[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:20: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val one = FreshIdentifier("one")[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:21: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val notZeroOne = FreshIdentifier("notOne")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:31: not found: value mkSort[0m
+[0m[[31merror[0m] [0m  val elementADT = mkSort(element)()(Seq(zero, one, notZeroOne))[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:32: not found: value mkConstructor[0m
+[0m[[31merror[0m] [0m  val zeroADT = mkConstructor(zero)()(Some(element)) {_ => Seq()}[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:33: not found: value mkConstructor[0m
+[0m[[31merror[0m] [0m  val oneADT = mkConstructor(one)()(Some(element)) {_ => Seq()}[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:34: not found: value mkConstructor[0m
+[0m[[31merror[0m] [0m  val notZeroOneADT = mkConstructor(notZeroOne)()(Some(element)) {_ => Seq()}[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:42: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val addID = FreshIdentifier("add")[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:43: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val multID = FreshIdentifier("multiplication")[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:44: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val oppositeID = FreshIdentifier("opposite")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:45: not found: value FreshIdentifier[0m
+[0m[[31merror[0m] [0m  val inverseID = FreshIdentifier("inverse")[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:47: not found: value mkFunDef[0m
+[0m[[31merror[0m] [0m  val addFunction = mkFunDef(addID)("element") { case Seq(eT) => [0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:57: not found: value mkFunDef[0m
+[0m[[31merror[0m] [0m  val multFunction = mkFunDef(multID)("element") { case Seq(eT) => [0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:67: not found: value mkFunDef[0m
+[0m[[31merror[0m] [0m  val oppositeFunction = mkFunDef(oppositeID)("element") { case Seq(eT) => [0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:78: not found: value mkFunDef[0m
+[0m[[31merror[0m] [0m  val inverseFunction = mkFunDef(inverseID)("nonZero") { case Seq(nzT) => [0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:92: not found: type Expr[0m
+[0m[[31merror[0m] [0m  implicit class ExprOperands(private val lhs: Expr) extends AnyVal{[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:93: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^+(rhs: Expr): Expr = E(addID)(T(element)())(lhs, rhs)[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:93: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^+(rhs: Expr): Expr = E(addID)(T(element)())(lhs, rhs)[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:93: not found: value E[0m
+[0m[[31merror[0m] [0m    def ^+(rhs: Expr): Expr = E(addID)(T(element)())(lhs, rhs)[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:94: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^-(rhs: Expr): Expr = E(addID)(T(element)())(lhs,opp(rhs))[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:94: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^-(rhs: Expr): Expr = E(addID)(T(element)())(lhs,opp(rhs))[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:94: not found: value E[0m
+[0m[[31merror[0m] [0m    def ^-(rhs: Expr): Expr = E(addID)(T(element)())(lhs,opp(rhs))[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:95: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^*(rhs: Expr): Expr = E(multID)(T(element)())(lhs, rhs)[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:95: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^*(rhs: Expr): Expr = E(multID)(T(element)())(lhs, rhs)[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:95: not found: value E[0m
+[0m[[31merror[0m] [0m    def ^*(rhs: Expr): Expr = E(multID)(T(element)())(lhs, rhs)[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:96: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^/(rhs: Expr): Expr = E(multID)(T(element)())(lhs,inv(rhs))[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:96: not found: type Expr[0m
+[0m[[31merror[0m] [0m    def ^/(rhs: Expr): Expr = E(multID)(T(element)())(lhs,inv(rhs))[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:96: not found: value E[0m
+[0m[[31merror[0m] [0m    def ^/(rhs: Expr): Expr = E(multID)(T(element)())(lhs,inv(rhs))[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:92: value class needs to have a publicly accessible val parameter[0m
+[0m[[31merror[0m] [0m  implicit class ExprOperands(private val lhs: Expr) extends AnyVal{[0m
+[0m[[31merror[0m] [0m                                          ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:98: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def opp(e: Expr): Expr = E(oppositeID)(T(element)())(e)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:98: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def opp(e: Expr): Expr = E(oppositeID)(T(element)())(e)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:98: not found: value E[0m
+[0m[[31merror[0m] [0m  def opp(e: Expr): Expr = E(oppositeID)(T(element)())(e)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:99: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def inv(e: Expr): Expr = E(inverseID)(T(element)())(e)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:99: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def inv(e: Expr): Expr = E(inverseID)(T(element)())(e)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:99: not found: value E[0m
+[0m[[31merror[0m] [0m  def inv(e: Expr): Expr = E(inverseID)(T(element)())(e)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:101: not found: value T[0m
+[0m[[31merror[0m] [0m  val z = T(zero)()() [0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:102: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def double(e: Expr): Expr = e ^+ e[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:102: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def double(e: Expr): Expr = e ^+ e[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:103: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def triple(e: Expr): Expr = e ^+ e ^+ e[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/field.scala:103: not found: type Expr[0m
+[0m[[31merror[0m] [0m  def triple(e: Expr): Expr = e ^+ e ^+ e[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala:1: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala:2: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox.trees.{forall => _, _}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala:3: not found: object inox[0m
+[0m[[31merror[0m] [0mimport inox.trees.dsl._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/usuario/Documentos/asignaturas/sav/practice/semester_project/src/main/scala/register.scala:5: not found: object welder[0m
+[0m[[31merror[0m] [0mimport welder._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m86 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

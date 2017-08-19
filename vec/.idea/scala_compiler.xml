@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="SBT 1" modules="lara_summer-root" />
+    <profile name="SBT 2" modules="root">
+      <option name="featureWarnings" value="true" />
+    </profile>
+    <profile name="SBT 3" modules="cf2afcc17c48d8168f32-root">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+    </profile>
+  </component>
+</project>
