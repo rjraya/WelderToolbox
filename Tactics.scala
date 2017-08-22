@@ -4,6 +4,12 @@ trait Tactics { self: Theory =>
 
   import program.trees._
 
+  /*
+    Introduce predicate induction on that will choose by itself the induction
+    principle to use.
+
+   */
+
   /* automatised theorems: countLemma, normalityLemma, dropLemma
 
     Example use:
@@ -33,6 +39,16 @@ trait Tactics { self: Theory =>
     }
 
     structuralInduction(property, valDef)(cases)
+  }
+
+  def natInduct(property: Expr => Expr, base: Expr, baseCase: Goal => Attempt[Witness]): Attempt[Theorem] = {
+    val inductiveCase: (NaturalInductionHypotheses, Goal) => Attempt[Witness] = { case (ihs,_) =>
+      andI(ihs.propertyForLessOrEqualToVar,
+           ihs.variableGreaterThanBase,
+           ihs.propertyForVar)
+    }
+    naturalInduction(property, base, baseCase)(inductiveCase)
+
   }
 
 }

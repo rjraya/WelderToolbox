@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/experiments-root.iml" filepath="$PROJECT_DIR$/.idea/modules/experiments-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/experiments-root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/experiments-root-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/inox-root.iml" filepath="$PROJECT_DIR$/.idea/modules/inox-root.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/inox-root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/inox-root-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vec-root.iml" filepath="$PROJECT_DIR$/.idea/modules/vec-root.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vec-root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/vec-root-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/welder-root.iml" filepath="$PROJECT_DIR$/.idea/modules/welder-root.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/welder-root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/welder-root-build.iml" />
     </modules>

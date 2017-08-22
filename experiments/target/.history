@@ -446,3 +446,10 @@ compile
 all {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/products {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/test:products
 compile
 all {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/products {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/test:products
+compile
+run
+all {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/products {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/test:products
+compile
+all {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/products {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/test:products
+compile
+all {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/products {git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161}root/test:products

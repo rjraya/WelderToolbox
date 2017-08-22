@@ -1,4 +1,4 @@
-name := "vec"
+name := "experiments"
 
 scalaVersion := "2.11.8"
 

@@ -1,6 +1,5 @@
 import inox._
 import inox.trees.{forall => _, _}
-import _root_.Tree.node
 import inox.trees.dsl._
 import welder._
 
@@ -26,9 +25,9 @@ object Tree {
     val retType: Type = IntegerType
     val body: Seq[Variable] => Expr = { case Seq(t) =>
       if_ (t.isInstOf(T(node)(aT))) {
-        val node = t.asInstOf(T(node)(aT))
-        val lheight = E(heightID)(node.getField(left))
-        val rheight = E(heightID)(node.getField(right))
+        val n = t.asInstOf(T(node)(aT))
+        val lheight = E(heightID)(n.getField(left))
+        val rheight = E(heightID)(n.getField(right))
         if_ (lheight > rheight){
           E(BigInt(1)) + lheight
         } else_ {

@@ -1,29 +1,48 @@
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar: class java.lang.Object now provided by /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar[0m
+[0m[[0mdebug[0m] [0m[naha] The welder.Tactics source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	natInduct.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) welder.Tactics: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) welder.Tactics.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/ListProof.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] The welder.Theory source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	natInduct.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) welder.Theory: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) welder.Theory.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/ListProof.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Main.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/GaussProof.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Register.scala. This dependency is not being considered for invalidation.[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/work2/vec/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/GaussProof.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/work2/vec/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set(NamesChange(welder.Tactics,ModifiedNames(regularNames = natInduct, implicitNames = )), NamesChange(welder.Theory,ModifiedNames(regularNames = natInduct, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set(/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/GaussProof.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/ListProof.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Gauss.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/List.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Tree.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Main.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/GaussProof.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Register.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/work2/vec/src/main/scala/Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/work2/vec/src/main/scala/Main.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/usuario/Documentos/personal/trabajos/lara_summer/work2/vec/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/ListProof.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Gauss.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/List.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Tree.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Main.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/GaussProof.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Register.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/ListProof.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Gauss.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/List.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Tree.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Main.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/GaussProof.scala, /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/src/main/scala/Register.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 8 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 8 Scala sources to /home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.11.8[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 142007b1, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 47713e35, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/usuario/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/home/usuario/Documentos/personal/trabajos/lara_summer/work2/vec/target/scala-2.11/classes:/home/usuario/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/target/scala-2.11/classes:/home/usuario/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/target/scala-2.11/classes:/home/usuario/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/unmanaged/scalaz3-unix-64-2.11.jar:/home/usuario/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/usuario/.ivy2/cache/com.regblanc/scala-smtlib_2.11/jars/scala-smtlib_2.11-0.2.1.jar:/home/usuario/.ivy2/cache/uuverifiers/princess_2.11/jars/princess_2.11-2016-12-26.jar:/home/usuario/.ivy2/cache/uuverifiers/princess-parser_2.11/jars/princess-parser_2.11-2016-12-26.jar:/home/usuario/.ivy2/cache/uuverifiers/princess-smt-parser_2.11/jars/princess-smt-parser_2.11-2016-12-26.jar:/home/usuario/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/usuario/.ivy2/cache/net.sf.squirrel-sql.thirdparty-non-maven/java-cup/jars/java-cup-0.11a.jar:/home/usuario/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.1.jar:/home/usuario/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 1.47420508 s[0m
+[0m[[0mdebug[0m] [0m	/home/usuario/Documentos/personal/trabajos/lara_summer/github/experiments/target/scala-2.11/classes:/home/usuario/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/target/scala-2.11/classes:/home/usuario/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/target/scala-2.11/classes:/home/usuario/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/unmanaged/scalaz3-unix-64-2.11.jar:/home/usuario/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/usuario/.ivy2/cache/com.regblanc/scala-smtlib_2.11/jars/scala-smtlib_2.11-0.2.1.jar:/home/usuario/.ivy2/cache/uuverifiers/princess_2.11/jars/princess_2.11-2016-12-26.jar:/home/usuario/.ivy2/cache/uuverifiers/princess-parser_2.11/jars/princess-parser_2.11-2016-12-26.jar:/home/usuario/.ivy2/cache/uuverifiers/princess-smt-parser_2.11/jars/princess-smt-parser_2.11-2016-12-26.jar:/home/usuario/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/usuario/.ivy2/cache/net.sf.squirrel-sql.thirdparty-non-maven/java-cup/jars/java-cup-0.11a.jar:/home/usuario/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.1.jar:/home/usuario/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 1.915142426 s[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
