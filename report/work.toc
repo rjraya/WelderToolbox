@@ -1,0 +1,35 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Contributions to Welder}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Setup to use Welder in Intellij Idea}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Adding the first "naive" tactics}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Term rewriting}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Motivation}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Abstract reduction systems}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Termination}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Confluence}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Universal algebra}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1}General notions}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.2}Syntactic characterization of $\mathrel {\mathop {\leftrightarrow }\limits ^{*}}$}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.3}Semantic characterization of $\mathrel {\mathop {\leftrightarrow }\limits ^{*}}$}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}A basic completion algorithm}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}Term rewriting systems}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}Critical pairs}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3}The basic algorithm}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Conclusion and future work}{20}
