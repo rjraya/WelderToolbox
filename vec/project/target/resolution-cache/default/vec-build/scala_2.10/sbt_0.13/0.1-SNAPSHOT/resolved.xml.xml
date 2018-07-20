@@ -4,7 +4,7 @@
 		module="vec-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170808123833"
+		publication="20180718093337"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

@@ -1,688 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abbb7d2e-7916-4f31-b188-3a6c588896f8" name="Default" comment="">
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/build.sbt" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/doc/Internals.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/doc/Tutorial.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/doc/images/tutorial-formula.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/project/Build.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/project/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/example/scala/Divisibility.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/example/scala/Gauss.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/example/scala/ListsAndTrees.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/ADTs.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Arithmetic.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Deconstructions.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Evaluators.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Interpolations.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Paths.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Relational.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Rules.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Solvers.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Theory.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Utils.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/Assoc.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/Constraints.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/ExprIR.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/ExpressionParser.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/IR.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/InoxConstraintSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/InoxLexer.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/StringContextLexer.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/TypeIR.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/parsing/TypeParser.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/test/scala/welder/FreezeSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/test/scala/welder/MarkingsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/test/scala/welder/RelationalReasoningDSLTypingSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/test/scala/welder/RelationalReasoningSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/test/scala/welder/RulesSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/test/scala/welder/TheoremsViaSMT.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/.larabot.conf" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/.sbtopts" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/CLA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/build.sbt" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/doc/API.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/doc/trees.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/doc/tutorial.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/project/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/project/plugins.sbt" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/AbstractRefinementMap.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/AssociativityProperties.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/AssociativityProperties.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/BinarySearchTreeQuant.scala-2.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/BraunTree.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/List-fold.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/PositiveMap.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/Sorted.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/SAT/Streams.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNKNOWN/PigeonHole.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/ADTInvariants1.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/AbstractRefinementMap.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/AbstractRefinementMap.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/BinarySearchTreeQuant2.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/BinarySearchTreeQuant2.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Closures2.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Closures2.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Closures2.scala-2.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Closures2.scala-3.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Formulas.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/FunctionMatchers.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/HigherOrderFunctionsMutableParams10.scala-2.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Lambdas3.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Lambdas3.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/LetsInForall.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/MergeSort2.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/MergeSort2.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/PalindromeList1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/PigeonHole.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Predicate.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Tutorial.scala-0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/resources/regression/tip/UNSAT/Tutorial.scala-1.tip" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/ResourceUtils.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/TestSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/solvers/SolvingTestSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/solvers/unrolling/BagSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/solvers/unrolling/ChooseSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/solvers/unrolling/FunctionEqualitySuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/solvers/unrolling/InductiveUnrollingSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/solvers/unrolling/QuantifiersSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/solvers/unrolling/SimpleUnrollingSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/tip/TipPrintingSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/it/scala/inox/tip/TipTestSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/doc/API.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/doc/trees.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/doc/tutorial.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/Context.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/Main.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/Model.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/Options.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/Program.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/Reporter.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/Semantics.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/CallGraph.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Constructors.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/DSL.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Definitions.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/ExprOps.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Expressions.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Extractors.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/GenTreeOps.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Identifier.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Paths.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Printers.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/ProgramEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/SimpleSymbols.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/SymbolOps.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/TreeOps.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Trees.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/TypeOps.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Types.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/evaluators/ContextualEvaluator.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/evaluators/EncodingEvaluator.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/evaluators/EvaluationResults.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/evaluators/Evaluator.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/evaluators/RecursiveEvaluator.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/evaluators/SolvingEvaluator.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/ADTManagers.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/CantResetException.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/SimpleSolverAPI.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/Solver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/SolverFactory.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/SolverResponses.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/combinators/EncodingSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/combinators/EncodingSolverFactory.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/combinators/PortfolioSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/combinators/PortfolioSolverFactory.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/combinators/SolverPoolFactory.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/combinators/TimeoutSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/combinators/TimeoutSolverFactory.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/princess/AbstractPrincessSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/princess/PrincessSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/CVC4Solver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/CVC4Target.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/SMTLIBDebugger.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/SMTLIBParser.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/SMTLIBSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/SMTLIBTarget.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/Z3Solver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/smtlib/Z3Target.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/theories/BagEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/theories/BitvectorEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/theories/RealEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/theories/SetEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/theories/StringEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/theories/TheoryEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/theories/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/ChooseEncoder.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/DatatypeTemplates.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/EqualityTemplates.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/FunctionTemplates.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/LambdaTemplates.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/QuantificationTemplates.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/TemplateGenerator.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/Templates.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/unrolling/UnrollingSolver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/z3/AbstractZ3Solver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/z3/NativeZ3Solver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/solvers/z3/UninterpretedZ3Solver.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/tip/Bags.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/tip/Parser.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/tip/PositionProvider.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/tip/Printer.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/tip/TipDebugger.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/tip/TipExtensions.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/transformers/Collector.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/transformers/CollectorWithPC.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/transformers/ScopeSimplifier.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/transformers/SimplifierWithPC.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/transformers/Transformer.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/transformers/TransformerWithPC.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/ASCIIHelpers.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/Bijection.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/FreeableIterator.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/GraphOps.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/GraphPrinters.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/Graphs.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/IncrementalBijection.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/IncrementalMap.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/IncrementalSeq.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/IncrementalSet.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/IncrementalState.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/IncrementalStateWrapper.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/InterruptManager.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/Interruptible.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/LruCache.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/Positions.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/SCC.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/SearchSpace.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/SeqUtils.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/StreamUtils.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/TimeoutFor.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/Timer.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/UniqueCounter.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/utils/package.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/DatastructureUtils.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/TestContext.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/TestSilentReporter.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/ast/DefinitionTransformerSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/ast/ExprOpsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/ast/ExtractorsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/ast/SimplifyLetsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/ast/TreeNormalizationsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/ast/TreeTestsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/ast/TypeOpsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/evaluators/EvaluatorSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/solvers/SemanticsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/solvers/SolverPoolSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/solvers/SolversSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/solvers/TimeoutSolverSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/utils/BijectionSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/utils/GraphsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/utils/IncrementalBijectionSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/utils/StreamsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/test/scala/inox/utils/UtilsSuite.scala" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/unmanaged/scalaz3-unix-32-2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/unmanaged/scalaz3-unix-64-2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/unmanaged/scalaz3-unix-64-2.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/unmanaged/scalaz3-win-64-2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b7c4544812d77e4eba49$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b7c4544812d77e4eba49$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b7c4544812d77e4eba49.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b7c4544812d77e4eba49.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b9bade5a83c2fba8262d$$anonfun$root$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b9bade5a83c2fba8262d$$anonfun$root$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b9bade5a83c2fba8262d$$anonfun$root$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b9bade5a83c2fba8262d$$anonfun$root$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b9bade5a83c2fba8262d$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b9bade5a83c2fba8262d.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b9bade5a83c2fba8262d.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$d94f6f18284af95e8f4b$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$d94f6f18284af95e8f4b$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$d94f6f18284af95e8f4b.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$d94f6f18284af95e8f4b.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$10$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1$$anonfun$apply$38$$anonfun$apply$39$$anonfun$25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1$$anonfun$apply$38$$anonfun$apply$39$$anonfun$26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$integralDomainLemma$1$$anonfun$apply$16$$anonfun$apply$17$$anonfun$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMinusOne$1$$anonfun$22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMinusOne$1$$anonfun$23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMinusOne$1$$anonfun$24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMult$1$$anonfun$apply$19$$anonfun$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfAddLemma$1$$anonfun$apply$14$$anonfun$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15$$anonfun$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15$$anonfun$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15$$anonfun$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15$$anonfun$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15$$anonfun$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15$$anonfun$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroDivisorLemma$1$$anonfun$apply$13$$anonfun$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroDivisorLemma$1$$anonfun$apply$13$$anonfun$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$2$$anonfun$apply$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$negZeroLemma$1$$anonfun$apply$44.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$18$$anonfun$apply$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$21$$anonfun$apply$22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13$$anonfun$apply$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$apply$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$SparseProof$$anonfun$$anonfun$$property1$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$SparseProof$$anonfun$$anonfun$$strongHypFun$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$SparseProof$$anonfun$$anonfun$$strongHypFun$2$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$SparseProof$$anonfun$$anonfun$$anonfun$$property2$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$29$$anonfun$apply$30$$anonfun$apply$31$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$29$$anonfun$apply$30$$anonfun$apply$31$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$29$$anonfun$apply$30$$anonfun$apply$31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$29$$anonfun$apply$30.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$32.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$12$$anonfun$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$12$$anonfun$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$15$$anonfun$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$15$$anonfun$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$18$$anonfun$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$18$$anonfun$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$7$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$9$$anonfun$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$9$$anonfun$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35$$anonfun$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34$$anonfun$apply$35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33$$anonfun$apply$34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$36.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$23$$anonfun$24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$23$$anonfun$25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$26$$anonfun$27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$26$$anonfun$28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$29$$anonfun$30.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$29$$anonfun$31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$29$$anonfun$32.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$29$$anonfun$33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$29$$anonfun$34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$29$$anonfun$35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36$$anonfun$37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36$$anonfun$38.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36$$anonfun$39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36$$anonfun$40.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36$$anonfun$41.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36$$anonfun$42$$anonfun$43.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36$$anonfun$42.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$36.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44$$anonfun$45.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44$$anonfun$46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44$$anonfun$47.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44$$anonfun$48.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44$$anonfun$49.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44$$anonfun$50$$anonfun$51.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44$$anonfun$50.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39$$anonfun$44.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38$$anonfun$apply$39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37$$anonfun$apply$38.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27$$anonfun$apply$37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25$$anonfun$apply$27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$apply$25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem1$1$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem2$1$$anonfun$apply$40$$anonfun$52.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem2$1$$anonfun$apply$40$$anonfun$53.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem2$1$$anonfun$apply$40$$anonfun$54.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem2$1$$anonfun$apply$40.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$58.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$60.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$61$$anonfun$apply$62$$anonfun$61.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$61$$anonfun$apply$62$$anonfun$62.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$61$$anonfun$apply$62$$anonfun$63.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$61$$anonfun$apply$62$$anonfun$apply$63.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$61$$anonfun$apply$62$$anonfun$apply$64.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$61$$anonfun$apply$62.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$61.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$65.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$64.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$65.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$66.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$67.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$68.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$69$$anonfun$apply$69.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$69.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$70.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$71.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$72$$anonfun$apply$70$$anonfun$apply$71.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$72$$anonfun$apply$70$$anonfun$apply$72.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$72$$anonfun$apply$70.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$72.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67$$anonfun$apply$68.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66$$anonfun$apply$67.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$66.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$73.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$73.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$74.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$75.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$76.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$77$$anonfun$apply$77.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$77.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$78.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$79.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$80$$anonfun$apply$78$$anonfun$apply$79.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$80$$anonfun$apply$78$$anonfun$apply$80.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$80$$anonfun$apply$78.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$80.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$81.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$82.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$83.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$84.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$85.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$86.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$87.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$88.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$89.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$90.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$91.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$92.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$93.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$94.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$95.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75$$anonfun$apply$76.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74$$anonfun$apply$75.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59$$anonfun$apply$74.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$apply$59.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulTheorem1$1$$anonfun$96.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1$$anonfun$apply$45.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$55.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$56.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$57.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$58.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1$$anonfun$apply$46$$anonfun$apply$47.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1$$anonfun$apply$46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$48.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$59$$anonfun$apply$53.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$59.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$60$$anonfun$apply$54.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$60$$anonfun$apply$55.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$60$$anonfun$apply$56.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$60$$anonfun$apply$57.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$60.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51$$anonfun$apply$52.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50$$anonfun$apply$51.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49$$anonfun$apply$50.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$apply$49.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$2$$anonfun$apply$98$$anonfun$apply$99$$anonfun$106.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$2$$anonfun$apply$98$$anonfun$apply$99$$anonfun$107.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$2$$anonfun$apply$98$$anonfun$apply$99$$anonfun$apply$100.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$2$$anonfun$apply$98$$anonfun$apply$99.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$2$$anonfun$apply$98.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normnegInvolutionLemma$1$$anonfun$apply$41.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normnegInvolutionLemma$1$$anonfun$apply$42$$anonfun$apply$43.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normnegInvolutionLemma$1$$anonfun$apply$42.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow21Lemma$1$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow21Lemma$1$$anonfun$apply$2$$anonfun$apply$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow22Lemma$1$$anonfun$apply$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow22Lemma$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow23Lemma$1$$anonfun$apply$6$$anonfun$apply$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow23Lemma$1$$anonfun$apply$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow23Lemma$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow24constLemma$1$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow24constLemma$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow25Lemma$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow26powLemma$1$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow26powLemma$1$$anonfun$apply$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow26powLemma$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$SparseProof$$anonfun$$property$9$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$81.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$82.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$SparseProof$$anonfun$$anonfun$$property1$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$SparseProof$$anonfun$$anonfun$$strongHypFun$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$SparseProof$$anonfun$$anonfun$$strongHypFun$4$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$84.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$SparseProof$$anonfun$$anonfun$$anonfun$$property2$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$86.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$100.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$101.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$102.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$103.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$104.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$105.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$97.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$98.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89$$anonfun$99.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88$$anonfun$apply$89.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87$$anonfun$apply$88.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$87.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$90.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$91$$anonfun$apply$92$$anonfun$apply$93.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$91$$anonfun$apply$92.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$91.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$94.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$95$$anonfun$apply$96$$anonfun$apply$97.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$95$$anonfun$apply$96.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85$$anonfun$apply$95.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83$$anonfun$apply$85.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1$$anonfun$apply$83.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$ttheorem$1.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$cancellationLemma$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$cancellationLemma$1$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$cancellationLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$cancellationLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1$$anonfun$apply$38$$anonfun$apply$39.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1$$anonfun$apply$38$$anonfun$apply$39.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1$$anonfun$apply$38.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1$$anonfun$apply$38.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$doubleXZeroLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29$$anonfun$apply$30.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29$$anonfun$apply$30.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29$$anonfun$apply$31.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29$$anonfun$apply$31.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29$$anonfun$apply$32.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29$$anonfun$apply$32.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1$$anonfun$apply$29.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Theorem$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp1Theorem$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$34.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$34.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$35.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$35.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$36$$anonfun$apply$37.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$36$$anonfun$apply$37.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$36.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33$$anonfun$apply$36.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1$$anonfun$apply$33.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Theorem$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$exp2Theorem$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$integralDomainLemma$1$$anonfun$apply$16$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$integralDomainLemma$1$$anonfun$apply$16$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$integralDomainLemma$1$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$integralDomainLemma$1$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$integralDomainLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$integralDomainLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMinusOne$1$$anonfun$apply$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMinusOne$1$$anonfun$apply$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMinusOne$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMinusOne$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMult$1$$anonfun$apply$19$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMult$1$$anonfun$apply$19$$anonfun$apply$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMult$1$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMult$1$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMult$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$inverseOfMult$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeInvolutionLemma$1$$anonfun$apply$9$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeInvolutionLemma$1$$anonfun$apply$9$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeInvolutionLemma$1$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeInvolutionLemma$1$$anonfun$apply$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeInvolutionLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeInvolutionLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfAddLemma$1$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfAddLemma$1$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfAddLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfAddLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeOfMultLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$24.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$25$$anonfun$apply$26.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$25$$anonfun$apply$26.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$25.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$25.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$27.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$27.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$28.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23$$anonfun$apply$28.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1$$anonfun$apply$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$oppositeofInverseLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$simplificationLemma$1$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$simplificationLemma$1$$anonfun$apply$11$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$simplificationLemma$1$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$simplificationLemma$1$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$simplificationLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$simplificationLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1$$anonfun$apply$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1$$anonfun$apply$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1$$anonfun$apply$1$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddNeutralLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddOppositeLemma$1$$anonfun$apply$6$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddOppositeLemma$1$$anonfun$apply$6$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddOppositeLemma$1$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddOppositeLemma$1$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddOppositeLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueAddOppositeLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueMultInverseLemma$1$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueMultInverseLemma$1$$anonfun$apply$4$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueMultInverseLemma$1$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueMultInverseLemma$1$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueMultInverseLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$uniqueMultInverseLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroDivisorLemma$1$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroDivisorLemma$1$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroDivisorLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroDivisorLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroNotMinusOne$1$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroNotMinusOne$1$$anonfun$apply$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroNotMinusOne$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$$anonfun$zeroNotMinusOne$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FieldProof.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/List$$anonfun$13$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/List$$anonfun$13$$anonfun$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/List$$anonfun$9$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/List$$anonfun$9$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$ListProof$$anonfun$$property$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$ListProof$$anonfun$$property$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$apply$4$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$apply$4$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$$anonfun$rephrasedropLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ListProof.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$1$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$1$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$3$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$3$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$5$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$5$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Reduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ReduceProof$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ReduceProof$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ReduceProof.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ReduceProof.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Register$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Register$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Register.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Register.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$30$$anonfun$31.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$30$$anonfun$31.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$30.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$30.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$32$$anonfun$33.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$32$$anonfun$33.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$32.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$32.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$34$$anonfun$35.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$34$$anonfun$35.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$34.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$34.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$36$$anonfun$37.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$36$$anonfun$37.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$36.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$$anonfun$36.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparsePolynomial.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$SparseProof$$property$10$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$SparseProof$$property$10$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$SparseProof$$property$3$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$SparseProof$$property$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$SparseProof$$property$8$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$SparseProof$$property$8$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$countLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$countLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$countLemma$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$countLemma$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$negZeroLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$negZeroLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$SparseProof$$anonfun$$property1$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$SparseProof$$anonfun$$property1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$SparseProof$$anonfun$$strongHypFun$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3$$anonfun$SparseProof$$anonfun$$strongHypFun$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$SparseProof$$anonfun$$property$4$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1$$anonfun$SparseProof$$anonfun$$property$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddLemma2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem2$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normAddTheorem2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$SparseProof$$anonfun$$property1$3$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$SparseProof$$anonfun$$property1$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$SparseProof$$anonfun$$strongHypFun$3$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$SparseProof$$anonfun$$strongHypFun$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$SparseProof$$anonfun$$strongHypFun$3$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3$$anonfun$SparseProof$$anonfun$$strongHypFun$3$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulLemma1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulTheorem1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normMulTheorem1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg1Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$SparseProof$$anonfun$$property$7$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1$$anonfun$SparseProof$$anonfun$$property$7$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normNeg2Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normalityLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normalityLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normalityLemma$2$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normalityLemma$2$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normalityLemma$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normalityLemma$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexpt1Lemma$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexptTheorem1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normexptTheorem1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normnegInvolutionLemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normnegInvolutionLemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpop1Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpop1Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpop2Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpop2Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow1Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow1Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow21Lemma$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow21Lemma$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow21Lemma$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$$anonfun$normpow21Lemma$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparseProof.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/FieldProof.scala" afterPath="$PROJECT_DIR$/src/main/scala/FieldProof.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/List.scala" afterPath="$PROJECT_DIR$/src/main/scala/List.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ListProof.scala" afterPath="$PROJECT_DIR$/src/main/scala/ListProof.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Reduce.scala" afterPath="$PROJECT_DIR$/src/main/scala/Reduce.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ReduceProof.scala" afterPath="$PROJECT_DIR$/src/main/scala/ReduceProof.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Register.scala" afterPath="$PROJECT_DIR$/src/main/scala/Register.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/SparsePolynomial.scala" afterPath="$PROJECT_DIR$/src/main/scala/SparsePolynomial.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/SparseProof.scala" afterPath="$PROJECT_DIR$/src/main/scala/SparseProof.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/semester_project-semester_project_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/semester_project/semester_project_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/semester_project/semester_project_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/semester_project/semester_project_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/semester_project/semester_project_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-    </list>
+    <list default="true" id="abbb7d2e-7916-4f31-b188-3a6c588896f8" name="Default" comment="" />
     <ignored path="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/target/" />
     <ignored path="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/target/resolution-cache/" />
     <ignored path="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/target/streams/" />
@@ -727,12 +46,8 @@
       <file leaf-file-name="SparseProof.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparseProof.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-                <element signature="e#82#96#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1189">
+              <caret line="82" column="83" selection-start-line="82" selection-start-column="83" selection-end-line="82" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -740,9 +55,8 @@
       <file leaf-file-name="ListProof.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ListProof.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="56" column="3" lean-forward="false" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="735">
+              <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -750,9 +64,8 @@
       <file leaf-file-name="SparsePolynomial.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparsePolynomial.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="45">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -760,9 +73,8 @@
       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -770,42 +82,8 @@
       <file leaf-file-name="Register.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Register.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#110#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tactics.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Tactics.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Theory.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Theory.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6246">
-              <caret line="350" column="59" lean-forward="false" selection-start-line="350" selection-start-column="59" selection-end-line="350" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ADTs.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/ADTs.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -846,12 +124,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -886,93 +159,39 @@
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vec" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="semester_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="welder" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Scala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../work2/vec/project" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Scala" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -987,6 +206,45 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.vecdebug">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="vec-root" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="vecdebug" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="vec-root" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="root" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="Debug SBT Shell" type="Remote" factoryName="Remote" temporary="true">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -998,75 +256,7 @@
         <option name="LOCAL" value="false" />
       </RunnerSettings>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="vec-root" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="root" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -1079,44 +269,26 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <configuration name="vecdebug" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="vec-root" />
-      <envs />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.vecdebug" />
-      <item index="1" class="java.lang.String" itemvalue="Remote.Debug SBT Shell" />
+    <list>
+      <item itemvalue="Application.vecdebug" />
+      <item itemvalue="Remote.Debug SBT Shell" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Remote.Debug SBT Shell" />
+      <list>
+        <item itemvalue="Remote.Debug SBT Shell" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1501961588532" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1130,6 +302,10 @@
             <list>
               <ExternalProjectPojo>
                 <option name="name" value="root" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root" />
                 <option name="path" value="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -1137,8 +313,8 @@
                 <option name="path" value="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="root" />
-                <option name="path" value="$PROJECT_DIR$" />
+                <option name="name" value="root-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="root-build" />
@@ -1148,21 +324,20 @@
                 <option name="name" value="root-build" />
                 <option name="path" value="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/project" />
               </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="root-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
             </list>
           </value>
         </entry>
       </map>
     </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="87138949" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2920355924" />
+      </map>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1184,96 +359,85 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2799378" sideWeight="0.5266932" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3576983" sideWeight="0.49402392" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26693228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2799378" sideWeight="0.47330678" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.49083665" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32970452" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5272531" side_tool="true" visible="true" weight="0.27928773" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32988048" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49402392" weight="0.3576983" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.32970452" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32970452" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2665947" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" sideWeight="0.4727469" visible="true" weight="0.27928773" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49083665" weight="0.39968896" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="SBT" order="3" weight="0.32988048" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Messages" order="0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder" />
+      <path value="$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Solvers.scala</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/SparseProof.scala</url>
-          <line>1040</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="78" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparsePolynomial.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4986">
-          <caret line="277" column="44" lean-forward="false" selection-start-line="277" selection-start-column="44" selection-end-line="277" selection-end-column="44" />
+          <caret line="277" column="44" selection-start-line="277" selection-start-column="44" selection-end-line="277" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Register.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/List.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2286">
-          <caret line="131" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <caret line="131" lean-forward="true" selection-end-line="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ReduceProof.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/List.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1548">
-          <caret line="86" column="48" lean-forward="false" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="48" />
+          <caret line="86" column="48" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1292,108 +456,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparseProof.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <element signature="e#82#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/ADTs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="115" column="4" lean-forward="false" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Theory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6066">
-          <caret line="337" column="4" lean-forward="false" selection-start-line="337" selection-start-column="4" selection-end-line="337" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Rules.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="196" column="4" lean-forward="false" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Arithmetic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="175" column="4" lean-forward="false" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/DSL.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/ADTs.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Theory.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Rules.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Arithmetic.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/DSL.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparsePolynomial.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
-          <caret line="93" column="26" lean-forward="false" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="26" />
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Register.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/build.sbt" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/Predef.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Rationalizer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/io/FileInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/io/FileInputStream.class" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Curve.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1404,220 +508,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Types.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Types.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Proof.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2527">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Reduce.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ReduceProof.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Constructors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Constructors.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/FieldProof.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../work2/vec/src/main/scala/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Relational.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Solvers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#53#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Definitions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Trees.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Identifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Rules.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="102" column="51" lean-forward="false" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/DSL.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4104">
-          <caret line="228" column="11" lean-forward="false" selection-start-line="228" selection-start-column="11" selection-end-line="228" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.scala" />
+    <entry file="file://$PROJECT_DIR$/../work2/vec/src/main/scala/List.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Relational.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Solvers.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Definitions.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Trees.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Identifier.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/package.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Rules.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/DSL.scala" />
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="113" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="113" />
+          <caret line="4" column="113" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="113" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Expressions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="209" column="13" lean-forward="false" selection-start-line="209" selection-start-column="13" selection-end-line="209" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Arithmetic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2428">
-          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cf2afcc17c48d8168f32/inox/src/main/scala/inox/ast/Expressions.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Arithmetic.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/a.sc" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/List.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="123" column="3" lean-forward="true" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Register.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#110#124#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Theory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6246">
-          <caret line="350" column="59" lean-forward="false" selection-start-line="350" selection-start-column="59" selection-end-line="350" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/ADTs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Tactics.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Theory.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/ADTs.scala" />
+    <entry file="file://$USER_HOME$/.sbt/0.13/staging/cd425657f28ff0c08b80/welder/src/main/scala/welder/Tactics.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ListProof.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="56" column="3" lean-forward="false" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="735">
+          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparsePolynomial.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparseProof.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <element signature="e#82#96#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1189">
+          <caret line="82" column="83" selection-start-line="82" selection-start-column="83" selection-end-line="82" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -1674,6 +656,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>vec-root</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

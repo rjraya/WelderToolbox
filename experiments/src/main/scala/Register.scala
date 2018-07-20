@@ -7,18 +7,20 @@ import welder._
 object Register{
 
   import List._
-  import Gauss._
+
   //---------------------------Registering elements-----------------------------------
   val listADTs = Seq(listADT, nilADT, consADT)
-  val listOperations = Seq(lengthFunction, subtermFunction)
-
-  val gaussOperations = Seq(sumFunction)
+  /*lengthFunction, subtermFunction*/
+  val listOperations = Seq(linearRevFunction,appendFunction,revFunction)
 
   val symbols = NoSymbols
     .withADTs(listADTs)
-    .withFunctions(listOperations ++ gaussOperations)
+    .withFunctions(listOperations)
 
   val program = InoxProgram(Context.empty, symbols)
   val theory = theoryOf(program)
+
+  
+
 
 }

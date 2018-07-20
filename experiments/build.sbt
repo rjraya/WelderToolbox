@@ -2,6 +2,6 @@ name := "experiments"
 
 scalaVersion := "2.11.8"
 
-lazy val welder = RootProject(uri("git://github.com/epfl-lara/welder.git#79f9fffb49770f6078e8a1c0676efe38b51e7161"))
+lazy val welder = ProjectRef(file("/home/raya/Desktop/Summer2018/welder"), "root")
 
 lazy val root = (project in file(".")).dependsOn(welder)

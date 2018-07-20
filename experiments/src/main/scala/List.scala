@@ -49,6 +49,59 @@ object List{
     (args, retType, body)
   }
 
+  val linearRevID = FreshIdentifier("linearRev")
+  val linearRevFunction: FunDef = mkFunDef(linearRevID)("A"){ case Seq(aT) =>
+    val args: Seq[ValDef] = Seq("x" :: T(list)(aT),"y" :: T(list)(aT))
+    val retType: Type = T(list)(aT)
+    val body: Seq[Variable] => Expr = { case Seq(x,y) =>
+      if_ (x.isInstOf(T(nil)(aT))) {
+        y
+      } else_ { // cons
+        E(linearRevID)(aT)(x.asInstOf(T(cons)(aT)).getField(tail), 
+                           T(cons)(aT)(x.asInstOf(T(cons)(aT)).getField(head),y))
+      }
+    }
+
+    (args, retType, body)
+  }
+
+  val appendID = FreshIdentifier("append")
+  val appendFunction: FunDef = mkFunDef(appendID)("A"){ case Seq(aT) =>
+    val args: Seq[ValDef] = Seq("x" :: T(list)(aT),"y" :: T(list)(aT))
+    val retType: Type = T(list)(aT)
+    val body: Seq[Variable] => Expr = { case Seq(x,y) =>
+      if_ (x.isInstOf(T(nil)(aT))) {
+        y
+      } else_ { // cons
+        T(cons)(aT)(x.asInstOf(T(cons)(aT)).getField(head),
+                    E(appendID)(aT)(x.asInstOf(T(cons)(aT)).getField(tail),y))       
+      }
+    }
+
+    (args, retType, body)
+  }
+
+  val revID = FreshIdentifier("rev")
+  val revFunction: FunDef = mkFunDef(revID)("A"){ case Seq(aT) =>
+    val args: Seq[ValDef] = Seq("l" :: T(list)(aT))
+    val retType: Type = T(list)(aT)
+    val body: Seq[Variable] => Expr = { case Seq(l) =>
+      if_ (l.isInstOf(T(nil)(aT))) {
+        T(nil)(aT)()
+      } else_ { // cons
+        E(appendID)(aT)(E(revID)(aT)(l.asInstOf(T(cons)(aT)).getField(tail)),
+                        T(cons)(aT)(l.asInstOf(T(cons)(aT)).getField(head),T(nil)(aT)()))
+      }
+    }
+
+    (args, retType, body)
+  }
+
   val len = E(lengthID)
   val subterm = E(subtermID)
+  val linearRev = E(linearRevID)
+  val append = E(appendID)
+  val rev = E(revID)
+
+  
 }
